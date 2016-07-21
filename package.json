@@ -1,10 +1,10 @@
 {
   "name": "requestheader",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "author": "",
   "license": "ISC",
@@ -12,5 +12,15 @@
     "express": "^4.14.0",
     "request-ip": "^1.2.2",
     "useragent": "^2.1.9"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vin01188/requestheader.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vin01188/requestheader/issues"
+  },
+  "homepage": "https://github.com/vin01188/requestheader#readme",
+  "description": ""
 }
